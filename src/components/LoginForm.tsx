@@ -36,7 +36,7 @@ export const LoginForm = () => {
               <FormItem>
                 <FormLabel>Email address</FormLabel>
                 <FormControl>
-                  <Input placeholder="votre Adresse email" {...field} />
+                  <Input placeholder="your email address" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -49,14 +49,14 @@ export const LoginForm = () => {
               <FormItem>
                 <FormLabel>Password</FormLabel>
                 <FormControl>
-                  <Input placeholder="votre mote de passe" {...field} />
+                  <Input placeholder="your password" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
             )}
           />
           <Button className="w-full" type="submit">
-            Soumettre
+            Submit
           </Button>
         </form>
       </Form>
